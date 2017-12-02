@@ -26,9 +26,6 @@ public class MeteorSpawner : MonoBehaviour
 
         if(spawnTimer <= 0)
         {
-
-            Instantiate(MeteorB1, )
-
         }
 
     }

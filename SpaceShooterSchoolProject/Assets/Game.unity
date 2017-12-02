@@ -219,6 +219,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee4dbdf31b329f749a56a6971b01245a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnDelay: 1
+  MeteorB1: {fileID: 0}
+  MeteorB2: {fileID: 0}
+  MeteorB3: {fileID: 0}
+  MeteorB4: {fileID: 0}
+  MeteorM1: {fileID: 0}
+  MeteorM2: {fileID: 0}
+  MeteorS1: {fileID: 0}
+  MeteorS2: {fileID: 0}
+  MeteorS3: {fileID: 0}
+  MeteorS4: {fileID: 0}
 --- !u!4 &194623561
 Transform:
   m_ObjectHideFlags: 0
@@ -254,7 +265,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 593467149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.1787724, y: 4.204566, z: -0.06380421}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -540,7 +551,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485438898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.1787724, y: 4.204566, z: -0.06380421}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
