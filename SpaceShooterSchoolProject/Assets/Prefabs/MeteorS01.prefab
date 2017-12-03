@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 212504003955344270}
   - component: {fileID: 50256448156909214}
   - component: {fileID: 60422489100882026}
+  - component: {fileID: 114761994452928940}
   m_Layer: 0
   m_Name: MeteorS01
-  m_TagString: Untagged
+  m_TagString: Meteor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,7 +72,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -94,6 +95,18 @@ PolygonCollider2D:
       - {x: 0.28, y: -0.19999999}
       - {x: 0.28, y: 0.26}
       - {x: 0.22, y: 0.28}
+--- !u!114 &114761994452928940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1177716793259064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee654434d5720b4daa02e4404ea20e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallingSpeed: 10
 --- !u!212 &212504003955344270
 SpriteRenderer:
   m_ObjectHideFlags: 1

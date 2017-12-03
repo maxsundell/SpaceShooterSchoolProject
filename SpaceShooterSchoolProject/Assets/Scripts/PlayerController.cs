@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     float fireTimer = 0f;
 
     public GameObject laser;
-    public GameObject laserShots;
+    public GameObject parent;
     public GameObject firingPos;
 
     void Update()
@@ -58,11 +58,11 @@ public class PlayerController : MonoBehaviour
         }
 
         // Fire Laser
-        if(Input.GetButton("Fire1") && fireTimer <= 0)
+        if(fireTimer <= 0)
         {
 
             fireTimer = fireDelay;
-            Instantiate(laser, firingPos.transform.position, transform.rotation, laserShots.transform);
+            Instantiate(laser, firingPos.transform.position, transform.rotation, parent.transform);
 
         }
 
