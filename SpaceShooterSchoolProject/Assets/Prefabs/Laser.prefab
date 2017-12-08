@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserSpeed: 15
+  laserHit: {fileID: 1906680049326532, guid: 9aef9b9de8d5c99488c90bc74addd140, type: 2}
 --- !u!212 &212045378804165500
 SpriteRenderer:
   m_ObjectHideFlags: 1

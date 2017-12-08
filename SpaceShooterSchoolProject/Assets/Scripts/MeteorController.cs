@@ -10,8 +10,8 @@ public class MeteorController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if(collision.CompareTag("Laser") && transform.position.y <= Camera.main.orthographicSize)
-        {        
+        if(collision.CompareTag("Laser") && transform.position.y <= Camera.main.orthographicSize - 1 || collision.CompareTag("Player") && transform.position.y <= Camera.main.orthographicSize - 1)
+        {
 
             hp--;
 
@@ -19,6 +19,7 @@ public class MeteorController : MonoBehaviour
             {
 
                 Destroy(gameObject);
+                ScoreText.score += 2;
 
             }
 
@@ -26,6 +27,7 @@ public class MeteorController : MonoBehaviour
             {
 
                 Destroy(gameObject);
+                ScoreText.score += 1;
 
             }
 
